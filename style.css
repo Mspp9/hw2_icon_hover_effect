@@ -71,3 +71,24 @@ ul li::after
 ul li:hover::after {
   opacity: 0.5;
 }
+ul li ion-icon
+{
+  color: #777; /*задаем цвет иконкам*/
+  font-size: 1.75em;/*размер иконок*/
+  transition: 0.5s;
+  transition-delay: 0.25s;
+}
+ul li :hover ion-icon
+{
+  transform: scale(0); /*при наведении на кнопку изображение пропадает*/
+  color: #fff;
+  transition-delay: 0;
+}
+ul li span
+{
+  position: absolute;
+}
+ul li .title
+{
+  color: #777;
+}
